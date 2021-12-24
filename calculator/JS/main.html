@@ -11,9 +11,9 @@
 
 <body>
     <!-- container -->
-    <div>
+    <div id="container">
         <!-- whole calculator -->
-        <div>
+        <div id="whole">
             <!-- rows -->
             <div class="row">
                 <form name="calc">
@@ -22,46 +22,36 @@
             </div>
 
             <div class="row">
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(7)">7</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(8)">8</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(9)">9</button>
-                <button id="math" type="button" class="mathButton" 
-                    onclick="mathButtonP('+')">+</button>                
+                <button type="button" class="btn" onclick="numbersButtonP(7)">7</button>
+                <button type="button" class="btn" onclick="numbersButtonP(8)">8</button>
+                <button type="button" class="btn" onclick="numbersButtonP(9)">9</button>
+                <button type="button" class="btn" onclick="mathButtonP('+')">+</button>
+                <button type="button" class="btn" ">T</button>
             </div>
 
             <div class="row">
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(4)">4</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(5)">5</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(6)">6</button>
-                <button id="math" type="button" class="mathButton" 
-                    onclick="mathButtonP('-')">-</button> 
+                <button type="button" class="btn" onclick="numbersButtonP(4)">4</button>
+                <button type="button" class="btn" onclick="numbersButtonP(5)">5</button>
+                <button type="button" class="btn" onclick="numbersButtonP(6)">6</button>
+                <button type="button" class="btn" onclick="mathButtonP('-')">-</button> 
             </div>
 
             <div class="row">
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(1)">1</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(2)">2</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(3)">3</button>
-                <button id="math" type="button" class="mathButton" 
-                    onclick="mathButtonP('/')">÷</button>
+                <button type="button" class="btn" onclick="numbersButtonP(1)">1</button>
+                <button type="button" class="btn" onclick="numbersButtonP(2)">2</button>
+                <button type="button" class="btn" onclick="numbersButtonP(3)">3</button>
+                <button type="button" class="btn" onclick="mathButtonP('/')">÷</button>
             </div>
 
             <div class="row">
-                <button>C</button>
-                <button id="numbers" type="button" class="numbersButton" 
-                    onclick="numbersButtonP(0)" >0</button>
-                <button id="decimal" type="button" class="equalButton" 
-                    onclick="equalButtonP()">=</button>
-                <button id="math" type="button" class="mathButton" 
-                    onclick="mathButtonP('*')">x</button>
+                <button type="button" class="btn" onclick="" >,</button>
+                <button type="button" class="btn" onclick="numbersButtonP(0)" >0</button>
+                <button type="button" class="btn" onclick="equalButtonP()">=</button>
+                <button type="button" class="btn" onclick="mathButtonP('*')">x</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class= "other" onclick="clearAll()">C</button>
             </div>
         </div>
     </div>
