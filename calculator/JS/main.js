@@ -4,8 +4,18 @@ var op1 = "";
 var op2 = "";
 var operator = "";
 
+// zad 2 + 2 inja age 0 click shod natije, age ye operator dg zade shod 4 + newValue ... 
+// type shodan ham bashe masalan 8 + 5 bad natije 
 
-function numbersButtonP(num){
+// ashar ro ezafe konam
+
+// power 2
+
+// power ezafe konam
+
+
+
+function numbersButtonP(num){  //inja az arr va while estefade konam 
     if(sy == false){
         op1 = op1.concat(num);
         document.getElementById("entry").value = op1;
