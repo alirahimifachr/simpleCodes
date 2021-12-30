@@ -1,3 +1,5 @@
+package Java;
+
 import java.util.EmptyStackException;
 
 public interface Stack<E>{
